@@ -1,0 +1,9 @@
+@import "variables.css";
+@import "normalize.css";
+@import "global.css";
+@import "blocks/header.css";
+@import "blocks/call-me.css";
+@import "blocks/about.css";
+@import "blocks/contact-us.css";
+@import "blocks/form.css";
+@import "blocks/footer.css";

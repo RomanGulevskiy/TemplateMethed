@@ -1,0 +1,33 @@
+.contact-us {
+  position: relative;
+  background: url("../../assets/img/contact-us-bg.png") no-repeat center / cover;
+}
+
+.contact-us:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--section-overlay-color);
+  z-index: 1;
+}
+
+.contact-us > * {
+  position: relative;
+  z-index: 100;
+}
+
+.contact-us__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us__title {
+  margin-bottom: 17px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+}

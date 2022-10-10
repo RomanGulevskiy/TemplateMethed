@@ -1,0 +1,21 @@
+.call-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 208px;
+}
+
+.call-me__phone {
+  margin-bottom: 2.85px;
+  font-size: 23.85px;
+  line-height: 28px;
+}
+
+.call-me__button {
+  font-size: 16px;
+  line-height: 19px;
+  color: inherit;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--primary-font-color);
+}
