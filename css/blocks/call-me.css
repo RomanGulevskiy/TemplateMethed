@@ -19,3 +19,49 @@
   background-color: transparent;
   border-bottom: 1px solid var(--primary-font-color);
 }
+
+@media (max-width: 1024px) {
+  .call-me {
+    flex-basis: 186px;
+  }
+
+  .call-me__phone {
+    margin-bottom: 4px;
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .call-me__button {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .call-me {
+    flex-basis: 48px;
+  }
+
+  .call-me__phone {
+    margin-bottom: 0;
+    background: url("../../assets/img/icons/phone.svg") no-repeat center / cover;
+    width: 48px;
+    height: 48px;
+    font-size: 0;
+  }
+
+  .call-me__button {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .call-me {
+    flex-basis: 24px;
+  }
+
+  .call-me__phone {
+    width: 24px;
+    height: 24px;
+  }
+}
