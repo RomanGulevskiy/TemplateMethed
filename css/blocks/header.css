@@ -40,7 +40,7 @@
 }
 
 .header__title {
-  margin-bottom: 35px;
+  margin-bottom: 32px;
   font-weight: 900;
   font-size: 52px;
   line-height: 61px;
@@ -54,6 +54,10 @@
   line-height: 31px;
   text-align: center;
   color: rgba(255, 255, 255, 0.75);
+}
+
+.header__mobile-text {
+  display: none;
 }
 
 .header__button {
@@ -85,10 +89,6 @@
     max-width: 814px;
   }
 
-  .header__logo {
-    width: 60px;
-  }
-
   .header__title {
     margin-bottom: 27.57px;
     font-size: 40px;
@@ -96,13 +96,9 @@
   }
 
   .header__text {
-    margin-bottom: 60.43px;
+    margin-bottom: 58px;
     font-size: 18px;
     line-height: 25px;
-  }
-
-  .header__button {
-    padding: 11px 49px;
   }
 }
 
@@ -122,24 +118,27 @@
     max-width: 320px;
   }
 
-  .header__logo {
-    width: 30px;
-  }
-
   .header__title {
-    margin-bottom: 23px;
+    margin-bottom: 25px;
     font-size: 20px;
     line-height: 23px;
   }
 
   .header__text {
+    display: none;
+  }
+
+  .header__mobile-text {
+    display: block;
     margin-bottom: 54px;
     font-size: 14px;
     line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
   }
 
   .header__button {
-    padding: 9px 29px;
+    padding: 10px 38px;
     font-size: 16px;
     line-height: 19px;
   }

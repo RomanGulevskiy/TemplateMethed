@@ -36,7 +36,7 @@
 /* media queries */
 @media (max-width: 1024px) {
   .footer {
-    padding-top: 37px;
+    padding-top: 38px;
     padding-bottom: 49px;
   }
 
@@ -44,11 +44,9 @@
     max-width: 1024px;
   }
 
-  .footer__logo {
-    width: 60px;
-  }
-
   .footer__text {
+    padding-right: 21px;
+    white-space: pre-wrap;
     opacity: 0.5;
   }
 }
@@ -79,12 +77,12 @@
 }
 
 @media (max-width: 320px) {
-  .footer__container {
-    max-width: 320px;
+  .footer {
+    padding-top: 24px;
   }
 
-  .footer__logo {
-    width: 30px;
+  .footer__container {
+    max-width: 320px;
   }
 
   .footer__copyright-text {
