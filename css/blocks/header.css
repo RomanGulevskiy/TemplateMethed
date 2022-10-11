@@ -102,6 +102,13 @@
   }
 }
 
+@media (max-width: 480px) {
+  .header__title {
+    font-size: 27px;
+    line-height: 33px;
+  }
+}
+
 @media (max-width: 320px) {
   .header {
     padding-top: 15px;

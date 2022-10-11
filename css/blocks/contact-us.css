@@ -55,6 +55,13 @@
   }
 }
 
+@media (max-width: 480px) {
+  .contact-us__title {
+    font-size: 27px;
+    line-height: 33px;
+  }
+}
+
 @media (max-width: 320px) {
   .contact-us {
     padding: 34px 0 30px;
